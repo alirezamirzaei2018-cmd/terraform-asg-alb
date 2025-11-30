@@ -53,8 +53,6 @@ terraform destroy
 
 ```
 
----
-
 ## Project Structure
 ```
 terraform-asg-alb/
