@@ -50,5 +50,3 @@ terraform destroy
 
 ### Auto Scaling Group
 ![ASG](screenshots/asg-instances.png)
-
-```
