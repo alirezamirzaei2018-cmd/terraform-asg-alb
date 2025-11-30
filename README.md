@@ -53,7 +53,7 @@ terraform destroy
 
 ```
 
-## Project Structure
+\## Project Structure
 ```
 terraform-asg-alb/
 ├── main.tf
