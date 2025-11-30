@@ -50,3 +50,17 @@ terraform destroy
 
 ### Auto Scaling Group
 ![ASG](screenshots/asg-instances.png)
+
+## Project Structure
+```
+terraform-asg-alb/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── .gitignore
+├── README.md
+└── screenshots/
+    ├── hello-world.png
+    ├── target-group-healthy.png
+    └── asg-instances.png
+```
