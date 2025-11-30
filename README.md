@@ -55,7 +55,7 @@ terraform destroy
 
 ---
 
-## **Best Practice Structure:**
+## Project Structure
 ```
 terraform-asg-alb/
 ├── main.tf
@@ -64,8 +64,7 @@ terraform-asg-alb/
 ├── .gitignore
 ├── README.md
 └── screenshots/
-    ├── terraform-apply.png
     ├── hello-world.png
     ├── target-group-healthy.png
-    ├── asg-instances.png
-    └── alb-active.png
+    └── asg-instances.png
+```
