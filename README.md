@@ -40,3 +40,30 @@ terraform destroy
 
 ```
 
+## Screenshots
+
+### Working Application
+![Working Application](screenshots/hello-world.png)
+
+### Healthy Target Group
+![Target Group](screenshots/target-group-healthy.png)
+
+### Auto Scaling Group
+![ASG](screenshots/asg-instances.png)
+
+```
+
+---
+
+## **Best Practice Structure:**
+```
+terraform-asg-alb/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── .gitignore
+├── README.md
+└── screenshots/
+    ├── hello-world.png
+    ├── target-group-healthy.png
+    └── asg-instances.png
